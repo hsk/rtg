@@ -1,12 +1,10 @@
 # rtg
 
-RTG is Regular Tree Grammar validator.
-RTG is BNF like syntax checker for prolog complex term.
+RTG is BNF like syntax checker macros of Regular Tree Grammar for prolog complex term.
 
 ## Example
 
-
-    :- use_module(rtg).
+    :- use_module(library(rtg)).
     syntax(integer).
     i ::= integer.
     e ::= i | e+e | e-e |e*e | e/e.
@@ -18,11 +16,7 @@ RTG is BNF like syntax checker for prolog complex term.
 
 This package requires Swi-Prolog 7.x.
 
-    pack_install(rtg).
-
-## Known issues
-
-Sorting is not stable.
+    pack_install(pack_install('https://github.com/hsk/rtg/archive/0.0.2.zip')).
 
 ## Bug reports/feature requests
 
