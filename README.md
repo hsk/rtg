@@ -1,4 +1,4 @@
-# rtg
+# RTG
 
 RTG is BNF like syntax checker macros of Regular Tree Grammar for prolog complex term.
 
@@ -23,16 +23,13 @@ This package requires Swi-Prolog 7.x.
 Please send bug reports/feature request through the GitHub
 project [page](https://github.com/hsk/rtg).
 
-## API documentation
-
-See <http://github.com/hsk/rtg/doc/>.
-
 ## Changelog
 
- * 2018-07-16 v0.0.4
- * 2018-07-15 v0.0.3
- * 2018-07-15 v0.0.2
- * 2018-07-15 v0.0.1
+ * 2018-07-16 0.0.5
+ * 2018-07-16 0.0.4
+ * 2018-07-15 0.0.3
+ * 2018-07-15 0.0.2
+ * 2018-07-15 0.0.1
 
 ## License
 
