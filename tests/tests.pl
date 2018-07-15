@@ -1,4 +1,4 @@
-:- use_module(library(rtg)).
+:- use_module(prolog/rtg).
 
 enum ::= a | b | c.
 syntax(integer).
@@ -20,5 +20,3 @@ test(e2):- e(1*2/3+5*4-6).
 test(paren):- e(1*2/3+5*(4-6)).
 
 :- end_tests(rtg_calc).
-:- run_tests.
-:- halt.

@@ -1,5 +1,5 @@
 name(rtg).
-version('0.0.4').
+version('0.0.5').
 title('Regular Tree Grammer validator').
 author('Hiroshi Sakurai', 'sakurai777@gmail.com').
 home('https://github.com/hsk/rtg').
