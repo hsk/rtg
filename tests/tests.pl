@@ -1,4 +1,4 @@
-:- use_module(prolog/rtg).
+:- use_module(library(rtg)).
 
 enum ::= a | b | c.
 syntax(integer).
@@ -21,9 +21,4 @@ test(paren):- e(1*2/3+5*(4-6)).
 
 :- end_tests(rtg_calc).
 :- run_tests.
-:- findall(D,library_directory(D),L),
-   maplist(writeln,L).
-:- findall(D,file_search_path(foreign,D),L),
-   maplist(writeln,L).
-
 :- halt.

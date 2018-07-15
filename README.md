@@ -35,7 +35,8 @@ See <http://github.com/hsk/rtg/doc/>.
 
 ## Changelog
 
- * 2017-07-15 v0.0.1
+ * 2018-07-15 v0.0.1
+ * 2018-07-15 v0.0.2
 
 ## License
 
