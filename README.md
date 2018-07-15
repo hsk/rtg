@@ -16,7 +16,7 @@ RTG is BNF like syntax checker macros of Regular Tree Grammar for prolog complex
 
 This package requires Swi-Prolog 7.x.
 
-    pack_install(pack_install('https://github.com/hsk/rtg/archive/0.0.2.zip')).
+    pack_install(pack_install('https://github.com/hsk/rtg/archive/0.0.3.zip')).
 
 ## Bug reports/feature requests
 
@@ -29,8 +29,9 @@ See <http://github.com/hsk/rtg/doc/>.
 
 ## Changelog
 
- * 2018-07-15 v0.0.1
+ * 2018-07-15 v0.0.3
  * 2018-07-15 v0.0.2
+ * 2018-07-15 v0.0.1
 
 ## License
 
