@@ -31,5 +31,14 @@ test(list) :- ls([1,2,3]).
 
 :- end_tests(rtg_list).
 
+test3 ::= add*i | sub*i.
+
+:- begin_tests(rtg_match).
+
+test(match1) :- test3(add*1).
+test(match2) :- test3(sub*1).
+
+:- end_tests(rtg_match).
+
 :- run_tests.
 :- halt.

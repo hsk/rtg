@@ -25,7 +25,8 @@ project [page](https://github.com/hsk/rtg).
 
 ## Changelog
 
- * 2018-07-17 0.0.6 added list syntax test
+ * 2018-07-17 0.0.7 added matching tests.
+ * 2018-07-17 0.0.6 added list syntax tests
  * 2018-07-16 0.0.5
  * 2018-07-16 0.0.4
  * 2018-07-15 0.0.3
