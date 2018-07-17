@@ -1,12 +1,11 @@
-:- module(rtg,[
-op(1200, xfx, [::=])]).
+:- module(rtg,[op(1200, xfx, [::=])]).
 % rtg.pl : Regular Tree Grammer validator generator
 
 :- op(1200, xfx, [::=]).
 
 user:term_expansion(A::=B, A_ :- syntax(A_,M,B)) :- assert(syntax(A)), apply_expansion(A,[M],A_).
 %goal_expansion(A,_) :- writeln(goal(A)),fail.
-user:term_expansion(syntax(A),sytax_ignore) :- assert(syntax(A)).
+user:term_expansion(syntax(A),syntax_ignore) :- assert(syntax(A)).
 user:goal_expansion(syntax(_,M,A),B_) :- syntax_expansion(M,A,B_).
 
 apply_expansion(A,M,L) :- atom(A), L =.. [A|M].
@@ -21,5 +20,4 @@ syntax_expansion(M,A,(M=B,!,B_))  :- A =.. [A_|Ps], maplist(syntax_expansion,Ms,
 
 syntax(atom).
 :- user:discontiguous(syntax/1).
-:- user:discontiguous(syntax_ignore/1).
-
+:- user:discontiguous(syntax_ignore/0).
